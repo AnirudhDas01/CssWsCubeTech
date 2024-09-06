@@ -1,0 +1,122 @@
+*{
+    padding: 0px; 
+    margin : 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #21014d;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main {
+    width: 1000px;
+    height: 540px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header{ 
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #003135;
+    color: #C0C0C0;
+    border-left: 1px solid #21014d;
+}
+
+.navbar {
+    width:1000px;
+    height: 40px;
+}
+
+.navbar-items {
+    width: 200px;
+    height: 40px;
+    float: left;
+    background-color:#024950;
+    border-left: 1px solid  #21014d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .imagesec{
+        width: 1000px;
+        height: 200px;
+    }
+.navbar-vert {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+.nav-items-vert {
+    height: 40px;
+    width: 250px;
+    background-color: #748D92;
+    color: black;
+    border-bottom: 1px solid #21014d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #21014d ;
+}
+
+.image {
+    height: 199.5px;
+    width: 750px;
+    color: white;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #748D92 ;
+    border-left: 1px solid #21014d;
+}
+
+.our-clients {
+    width: 1000px;
+    height: 50px;
+    background-color: #0FA4AF;
+    border-left: 1px solid #21014d;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid #21014d;
+}
+
+.content {
+    width: 1000px;
+    height: 110px;
+}
+.image-here {
+    height: 110px;
+    width: 333.33px;
+    background-color: #AFDDE5;
+    font-size: 20px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #21014d;
+}
+
+.footer {
+    height: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    float: left;
+    text-wrap: nowrap;
+    background-color: #024950;
+}

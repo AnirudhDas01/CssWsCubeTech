@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 1000px;
+            height: 800px;
+            border: 1px solid red;
+            background-size: cover;
+            image-orientation: flip;
+            background-color: rgb(0, 0, 0);
+            background-image: url('images/koala.jpg');
+            position: absolute;
+        }
+        .main:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.815) 100%);
+            }
+    </style>
+</head>
+<body>
+    <div class="main">
+        Welcome to WS CUBE
+    </div>
+</body>
+</html>
