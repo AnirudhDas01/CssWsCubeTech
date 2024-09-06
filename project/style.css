@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+}
+
+.main-header{ 
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.055);
+    display: flex;
+}
+.header-content {
+    width: 92%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+.image-section img {
+    padding-top: 10px;
+    height: 52px;
+}
+.customer-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 500px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-section p {
+    font-weight: 700;
+    font-size: 14px;
+}
+.customer-section div {
+    display: flex;
+    height: 40;
+    align-items: center;
+}
+.icon-section {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.search-section {
+    display: flex;
+    gap: 0px ;
+}
+
+.search-section input {
+    width: 450px;
+    height: 40px;
+    background-color: #cccccc20;
+    border: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.559);
+    border-radius:0px 6px 6px 0px;
+    margin-left: 0px;
+}
+
+.search-section button {
+    width: 60px;
+    height: 40px;
+    background-color: #cccccc20;
+    border: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.559);
+    border-radius: 6px;
+    margin-right: 0px;
+    border-radius:6px 0px 0px 6px;
+}
+.icon-section {
+    width: 150px;
+}
+
+.icon-section p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.customer-section .men {
+    height: 100%;
+    padding: 15px;
+}
+.customer-section .women {
+    height: 100%;
+    padding: 15px;
+}
+.customer-section .kids {
+    height: 100%;
+    padding: 15px;
+}
+.customer-section .home-living {
+    height: 100%;
+    padding: 15px;
+    text-wrap: nowrap;
+}
+.customer-section .beauty {
+    height: 100%;
+    padding: 15px;
+}
+
+.customer-section .studio {
+    height: 100%;
+    position: relative;
+    padding: 18px;
+}
+
+    .customer-section .men:hover {
+        border-bottom :4px solid red;
+        overflow-y: visible;
+    }
+    .customer-section .women:hover {
+        border-bottom :4px solid hotpink;
+    }
+    .customer-section .kids:hover {
+        border-bottom :4px solid darkorange;
+    }
+    .customer-section .home-living:hover {
+        border-bottom :4px solid gold;
+    }
+    .customer-section .beauty:hover {
+        border-bottom :4px solid teal;
+    }
+    .customer-section .studio:hover {
+        border-bottom :4px solid #e3306cb8;
+}
+
+.customer-section .studio .new-text {
+    font-size: 10px;
+    color: #e3306cb8;
+    font-weight: 700;
+    position: absolute;
+    top: 35%;
+    right: -10%;
+}
+
+.banner {
+    margin-top:40px ;
+    width: 100%;
+    height: 500px;
+}
+
+.banner img { 
+    width: 100%;
+    background-size: cover;
+}
+
+.brand-section {
+    width: 100%;
+  
+}
+.brand-section h1 {
+    text-indent: 30px;
+    letter-spacing: 4px;
+    font-size: 29px;
+    color: rgba(0, 0, 0, 0.697)
+}
+
+.brand-row {
+    margin-top: 90px;
+    display: flex;
+    width: 100%;
+}
+.brand-items {
+    width: 17%;
+}
+
+.brand-items img {
+    width: 100%;
+}

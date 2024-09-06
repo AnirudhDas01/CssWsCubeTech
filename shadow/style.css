@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.project-section{
+    width: 100%;
+    height: 500px;
+    background-color: #f7f2ec;
+}
+
+.project-section-mid{
+    width: 1320px;
+    margin: auto;
+}
