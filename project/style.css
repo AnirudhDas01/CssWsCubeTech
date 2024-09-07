@@ -35,12 +35,13 @@
 
 .customer-section p {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 14.7px;
 }
 .customer-section div {
     display: flex;
     height: 40;
     align-items: center;
+    color : #282C3F;
 }
 .icon-section {
     display: flex;
@@ -136,28 +137,12 @@
 }
 
 .customer-section .studio .new-text {
-    font-size: 10px;
-    color: #e3306cb8;
+    font-size: 10.3px;
+    color: #FF426E;
     font-weight: 700;
     position: absolute;
     top: 35%;
     right: -10%;
-}
-
-.banner {
-    margin-top:40px ;
-    width: 100%;
-    height: 500px;
-}
-
-.banner img { 
-    width: 100%;
-    background-size: cover;
-}
-
-.brand-section {
-    width: 100%;
-  
 }
 .brand-section h1 {
     text-indent: 30px;
@@ -177,4 +162,125 @@
 
 .brand-items img {
     width: 100%;
+}
+
+.footer {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    background-color:#fafbfc;
+}
+
+.footer-content {
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links {
+    margin-top: 40px ;
+    margin-bottom: 40px;
+   display: flex;
+   width: 30%;
+   flex-wrap: wrap;
+   font-size: 14px;
+   gap: 30px;
+   color: #898989;
+}
+
+.links b {
+    color: black;
+    font-size: 12px;
+}
+
+.links .online-shopping ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.links .customer-policies ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.links .useful-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.misc {
+    width: 70%;
+    margin-top: 40px;
+    display: flex;
+    gap: 100px;
+}
+.misc .download-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.misc .download-section .download-image img {
+    width: 120px;
+}
+
+.misc .download-section b {
+    font-size: 12px;
+}
+.misc .social-media-section b {
+    font-size: 12px;
+}
+.misc .media-icon i {
+    font-size: 25px;
+    color: gray
+}
+.misc .media-icon  {
+    display: flex;
+    gap: 10px;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;   
+}
+.section-2 .guarantee-section img {
+    width: 50px;
+    object-fit: contain;
+}
+.section-2 .guarantee-section p span {
+    font-weight: bold;
+}
+.section-2 .return-section p span {
+    font-weight: bold;
+}
+.section-2 .guarantee-section {
+    display: flex;
+    gap: 10px;
+}
+.section-2 .return-section img {
+    width: 50px;
+}
+.section-2 .return-section {
+    display: flex;
+    gap: 10px;
+}
+
+.main {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    width: 100%;
+    position: absolute;
+    transition: transform 0.8s ease-in-out;
 }

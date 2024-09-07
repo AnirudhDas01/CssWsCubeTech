@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main {
+           
+            height: 1450px;
+            position: relative;
+            overflow: hidden;
+        }
+        .slides {
+            width: 100%;
+            position: absolute;
+            transition: transform 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="project/assets/banner.jpg" alt="" class="slides">
+        <img src="project/assets/banner2.webp" alt="" class="slides">
+    </main>
+    <script>
+        const slides = document.querySelectorAll('.slides');
+        let counter = 0;
+
+        slides.forEach((slide, index) => {
+            slide.style.left = `${index * 100}%`;
+        });
+
+        function slideImages() {
+            counter++;
+            if (counter >= slides.length) {
+                counter = 0;
+            }
+            slides.forEach((slide) => {
+                slide.style.transform = `translateX(-${counter * 100}%)`;
+            });
+        }
+
+        // Change slides every 3 seconds
+        setInterval(slideImages, 3000);
+    </script>
+</body>
+</html>
