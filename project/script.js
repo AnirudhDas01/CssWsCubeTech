@@ -16,4 +16,4 @@
         }
 
         // Change slides every 3 seconds
-        setInterval(slideImages, 3000);
+        setInterval(slideImages, 10000);
